@@ -20,6 +20,11 @@
 		'<' => '', '>' => '', '?' => '',
 	];
 
+	/**
+	 * Sanitize string replacing accent letters with no accent letters
+	 * @param string $string
+	 * @return string
+	 */
 	function sanitize (string $string) : string {
 		$string = str_replace(array_keys(CHARS), CHARS, $string);
 

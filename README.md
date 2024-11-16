@@ -37,7 +37,7 @@ You can install this plugin into your application using [composer](https://getco
 [TOC](#table-of-contents)
 
 ### Manual install
-- Download [sanitize.php](https://github.com/alphp/sanitize/raw/master/src/sanitize.php) and save it to an accessible path of your project.
+- Download [sanitize.php](https://github.com/fawno/sanitize/raw/master/src/sanitize.php) and save it to an accessible path of your project.
 - Load the function Fawno\sanitize in your project
   ```php
   <?php

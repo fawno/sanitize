@@ -1,0 +1,36 @@
+{
+    "name": "fawno/sanitize",
+    "description": "Simple PHP function for sanitize strings",
+    "type": "library",
+    "keywords": ["sanitize"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fernando Herrero",
+            "homepage": "https://lab.fawno.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "files": [
+            "src/sanitize.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fawno\\Sanitize\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "scripts-descriptions": {
+        "test": "Run PHPUnit tests"
+    }
+}
